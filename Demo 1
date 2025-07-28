@@ -1,1 +1,52 @@
 This id demo file
+This is java program 
+
+class ArmstrongNumber
+{
+	public static void main(String[] args) 
+	{
+/*  for(int i=150;i<=160;i++)
+		{
+		  int n,a=0;
+		  n=i;
+		  while(n>0)
+		    {
+			   int b=n%10;
+			   a=a+(b*b*b); 
+			    n=n/10;
+			}
+	  	  System.out.println();
+	      if(a==i)
+		   {		
+		     System.out.println("Given number "+ i+ " is Armstrong number");
+		    
+		    }
+		   else
+		   {
+			System.out.println("Given number"+ i + " is not Armstrong number");
+		    }
+		}
+	}
+} */
+
+        int n=153;
+		int tempVar=n;
+		int a=0;
+		while(n>0)
+		{
+			int b=n%10;
+			a=a+(b*b*b);
+		    n=n/10;
+			
+		}
+
+	    if(tempVar==a)
+		{
+			System.out.println(tempVar +" is armstrong number");
+		}
+		else
+		{
+			System.out.println(tempVar +" is not armstrong number");
+		}
+	}
+}
