@@ -1,1 +1,9 @@
 This is HTML file
+<html>
+    <head>
+        <title>HTML code</title>
+    </head>
+    <body>
+        <h1>Welcom to HTML code</h1>
+    </body>
+</html>
